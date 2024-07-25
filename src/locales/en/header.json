@@ -1,1 +1,106 @@
-{ "nav_menu": "Menumenini", "header_title": "title for real header" }
+{
+    "locales": {
+        "en": "EN",
+        "ko": "KOR"
+    },
+    "nav": {
+        "solutions": {
+            "title": "Solutions",
+            "sub-title": {
+                "public-chains": {
+                    "title": "PUBLIC CHAINS",
+                    "polygon-pos": {
+                        "title": "Polygon PoS",
+                        "desc": "An EVM enabled sidechain",
+                        "sub-title": "POS APPLICATIONS SOLUTIONS",
+                        "solutions": {
+                            "polygon-portal": {
+                                "title": "Polygon-Portal",
+                                "desc": "Send and receive crypto assets"
+                            },
+                            "staking": {
+                                "title": "Staking",
+                                "desc": "Stake MATIC to earn rewards"
+                            },
+                            "polygon-scan": {
+                                "title": "Polygon-Scan",
+                                "desc": "Explore transactions on Polygon"
+                            },
+                            "faucet": {
+                                "title": "Faucet",
+                                "desc": "Get test tokens to experiment on testnet"
+                            },
+                            "token-mapper": {
+                                "title": "Token-Mapper",
+                                "desc": "Get test tokens to experiment on testnet"
+                            }
+                        }
+                    },
+                    "polygon-zkevm": {
+                        "title": "Polygon zkEVM",
+                        "desc": "An EVM equivalent, open-source zk-Rollup",
+                        "sub-title": "ZKEVM APPLICATIONS SOLUTIONS",
+                        "solutions": {
+                            "zkevm-apps": {
+                                "title": "zkEVM Ecosystem dApps",
+                                "desc": "Explore zkEVM in the Polygon zkEVM Ecosystem dApps"
+                            },
+                            "zkevm-bridge": {
+                                "title": "zkEVM Ecosystem Bridge",
+                                "desc": "Send and receive crypto assets"
+                            }
+                        }
+                    },
+                    "polygon-miden": {
+                        "title": "Polygon-Miden"
+                    }
+                },
+                "app-specific-chain": {
+                    "title": "APP SPECIFIC CHAIN",
+                    "polygon-cdk": {
+                        "title": "Polygon CDK",
+                        "desc": "Polygon Chain Development Kit (CDK) enables you to build your own ZK-powered Layer 2 custom-fitted to your needs."
+                    }
+                },
+                "decentralized-identity": {
+                    "title": "DECENTRALIZED IDENTITY",
+                    "polygon-id": {
+                        "title": "Polygon ID",
+                        "desc": "Polygon Chain Development Kit (CDK) enables you to build your own ZK-powered Layer 2 custom-fitted to your needs."
+                    }
+                }
+            }
+        },
+        "developers": {
+            "title": "Developer Home",
+            "desc": "When you join Polygon, you join our vibrant community of developers. Tap into the collective to scale and develop your products while being supported by your peers.",
+            "items": {
+                "documentation": {
+                    "title": "Documentation",
+                    "desc": "Explore our protocol documents and wiki"
+                },
+                "solution-provider-network": {
+                    "title": "Solution Provider Network",
+                    "desc": "Explore our protocol documents and wiki"
+                },
+                "polygon-learn": {
+                    "title": "Plygon Learn",
+                    "desc": "Explore our protocol documents and wiki"
+                }
+            }
+        },
+        "community": {
+            "title": "Community"
+        },
+        "resources": {
+            "title": "Resources"
+        },
+        "company": {
+            "title": "Company"
+        },
+        "use-polygon": {
+            "title": "Use Plygon"
+        }
+    },
+    "build-polygon": "Build On Polygon"
+}

@@ -1,1 +1,164 @@
-{ "header_title": "Web3, 집계." }
+{
+    "top-section": {
+        "title": "웹3, 집계됨.",
+        "sub-title": "소개: 집계된 블록체인",
+        "desc": "ZK 기술로 구동되는 단일 체인처럼 느껴지는 주권 블록체인의 무한히 확장 가능한 웹을 가능하게 합니다.",
+        "cards": {
+            "build": {
+                "title": "구축",
+                "desc": "우리의 문서에 접근하여 구축을 시작하십시오."
+            },
+            "stake": {
+                "title": "스테이킹",
+                "desc": "MATIC 토큰을 위임하여 네트워크 보안에 참여하십시오."
+            },
+            "use-polygon": {
+                "title": "폴리곤 사용",
+                "desc": "MATIC 토큰을 위임하여 네트워크 보안에 참여하십시오."
+            }
+        },
+        "carousel": {
+            "slide1": {
+                "title": "Aragon.",
+                "desc": "커뮤니티 주도적이고 자급자족하는 웹3 게임 생태계 조성"
+            },
+            "slide2": {
+                "title": "Intella X.",
+                "desc": "커뮤니티 주도적이고 자급자족하는 웹3 게임 생태계 조성"
+            },
+            "slide3": {
+                "title": "Lemon.",
+                "desc": "아르헨티나 페소와 디지털 자산을 결합한 아르헨티나 기반의 암호화폐 핀테크"
+            }
+        }
+    },
+    "scaling-section": {
+        "title": "가장 채택된 확장 기술",
+        "public-chains": {
+            "title": "공공 체인",
+            "polygon-pos": {
+                "title": "폴리곤 PoS",
+                "desc": "EVM 호환성과 오늘날 거의 제로에 가까운 가스 요금으로 빠른 거래를 제공하는 최고의 사용자 경험을 제공하는 가장 널리 사용되는 이더리움 확장 생태계를 지원합니다."
+            },
+            "polygon-zkevm": {
+                "title": "폴리곤 zkEVM",
+                "desc": "첫 번째 ZK 롤업으로 보안을 유지하면서 이더리움 확장성을 제공하며, 오늘날 거의 제로에 가까운 가스 비용으로 빠른 거래를 제공합니다."
+            },
+            "polygon-miden": {
+                "title": "폴리곤 Miden",
+                "desc": "개인 데이터 저장 및 로컬 거래 실행을 활용하는 탈중앙화 롤업. 프라이버시가 더 잘 확장되기 때문입니다."
+            }
+        },
+        "app-specific-chains": {
+            "title": "앱 특정 체인",
+            "polygon-sdk": {
+                "title": "폴리곤 CDK",
+                "desc": "업계 최고의 ZK 기술 및 생태계를 통해 이더리움 레이어 2를 구축하십시오."
+            }
+        },
+        "decentralized-identity": {
+            "title": "탈중앙화 신원",
+            "polygon-sdk": {
+                "title": "폴리곤 ID",
+                "desc": "자기 주권 신원 및 기본 프라이버시 원칙을 따르며 사용자와 dApp 간의 신뢰할 수 있고 안전한 관계를 구축하십시오."
+            }
+        }
+    },
+    "emissions-section": {
+        "title": "안녕하세요 세계, 안녕 배출량",
+        "desc": {
+            "part-1": "우리는 기후 변화와의 싸움에서 주도적으로 나서기 위해 우리의 핵심 블록체인 솔루션과 서비스를 활용하고 있습니다.",
+            "span": "폴리곤은 탄소 중립적입니다",
+            "part-2": "기후 긍정적이 될 계획이 있습니다."
+        }
+    },
+    "ecosystem-option": {
+        "title": "가장 크고 번성하는 생태계",
+        "cards": {
+            "card-1": {
+                "title": "총 계약 작성자",
+                "number": "28K+"
+            },
+            "card-2": {
+                "title": "고유 주소",
+                "number": "219.11M+"
+            },
+            "card-3": {
+                "title": "거래",
+                "number": "2.44B+"
+            },
+            "card-4": {
+                "title": "NFT 판매량",
+                "number": "12.80B+"
+            },
+            "card-5": {
+                "title": "평균 거래 비용",
+                "number": "~$0.015"
+            },
+            "card-6": {
+                "title": "배포된 스마트 계약",
+                "number": "1.17M+"
+            }
+        }
+    },
+    "options-section": {
+        "title": "이제 소매를 걷어붙일 시간입니다",
+        "cards": {
+            "irl": {
+                "title": "IRL 연결",
+                "desc": "전 세계 해커톤, 컨퍼런스 및 이벤트에서 우리의 커뮤니티와 만납니다.",
+                "action": "이벤트 보기"
+            },
+            "matic": {
+                "title": "MATIC 탐색",
+                "desc": "MATIC은 생태계 내 수만 개의 dApp과 상호 작용할 수 있게 하는 폴리곤의 통화입니다.",
+                "action": "자세히 알아보기"
+            },
+            "govern": {
+                "title": "거버넌스",
+                "desc": "폴리곤 프로토콜을 형성하는 데 참여하십시오.",
+                "action": "자세히 알아보기"
+            },
+            "polygon": {
+                "title": "폴리곤에서 구축",
+                "desc": "솔루션을 제공하고 다양한 애플리케이션 구축을 지원하는 모듈식, 유연한 프레임워크를 알아보십시오.",
+                "action": "개발자 문서"
+            }
+        }
+    },
+    "news-section": {
+        "title": "뉴스",
+        "carousel": {
+            "card-1": {
+                "title": "브리징된 USDC 표준이 폴리곤 CDK에 통합됨",
+                "date": "2024년 7월 24일",
+                "category": "폴리곤 CDK"
+            },
+            "card-2": {
+                "title": "Polygon Labs x Irreducible: Binius 기반의 zkVM",
+                "date": "2024년 7월 23일",
+                "category": "폴리곤 솔루션"
+            },
+            "card-3": {
+                "title": "",
+                "date": "2024년 6월 19일",
+                "category": "폴리곤 뉴스"
+            },
+            "card-4": {
+                "title": "폴리곤 Miden 알파 테스트넷 v3가 라이브됨",
+                "date": "2024년 6월 2일",
+                "category": "집계"
+            },
+            "card-5": {
+                "title": "폴리곤 PoS 검증자 스포트라이트: Everstake",
+                "date": "2024년 5월 13일",
+                "category": "폴리곤 솔루션"
+            }
+        },
+        "email": {
+            "title": "뉴스레터를 받으십시오",
+            "sub-title": "최신 정보를 받아보세요",
+            "text": "이메일을 입력하세요"
+        }
+    }
+}

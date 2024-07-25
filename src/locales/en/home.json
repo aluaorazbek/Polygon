@@ -1,1 +1,164 @@
-{ "header_title": "Web3, Aggregated." }
+{
+    "top-section": {
+        "title": "Web3, Aggregated.",
+        "sub-title": "Intriducing: Agregaed Blockchains",
+        "desc": "Enabling an infinitely scalable web of sovereign blockchains that feels like a single chain. Powered by ZK tech.",
+        "cards": {
+            "build": {
+                "title": "Build",
+                "desc": "Get access to our documents, and start building."
+            },
+            "stake": {
+                "title": "Stake",
+                "desc": "Participate in securing the network by delegating MATIC tokens"
+            },
+            "use-polygon": {
+                "title": "use Polygon",
+                "desc": "Participate in securing the network by delegating MATIC tokens"
+            }
+        },
+        "carousel": {
+            "slide1": {
+                "title": "Aragon.",
+                "desc": "Fostering a community-driven and self-sustaining Web3 gaming ecosystem"
+            },
+            "slide2": {
+                "title": "Intella X. ",
+                "desc": "Fostering a community-driven and self-sustaining Web3 gaming ecosystem"
+            },
+            "slide3": {
+                "title": "Lemon.",
+                "desc": "Argentina-based crypto fintech combining Argentine pesos with digital assets"
+            }
+        }
+    },
+    "scaling-section": {
+        "title": "The most adopted scaling technology",
+        "public-chains": {
+            "title": "Public Chains",
+            "polygon-pos": {
+                "title": "Polygon PoS",
+                "desc": "Support the most widely used Ethereum scaling ecosystem that offers EVM compatibility and an ultimate user experience with fast transactions at near-zero gas fees today."
+            },
+            "polygon-zkevm": {
+                "title": "Polygon zkEVM",
+                "desc": "Unlock Ethereum scalability while maintaining security with the first ZK-rollup that offers EVM equivalence with fast transactions at near-zero gas cost today."
+            },
+            "polygon-miden": {
+                "title": "Polygon Miden",
+                "desc": "A decentralized rollup that leverages private data storage and local transaction execution. Because privacy scales better."
+            }
+        },
+        "app-specific-chains": {
+            "title": "App Specific Chains",
+            "polygon-sdk": {
+                "title": "Polygon CDK",
+                "desc": "Build Ethereum Layer 2s with industry-leading ZK tech & ecosystem."
+            }
+        },
+        "decentralized-idebntity": {
+            "title": "Decentralized Idebntity",
+            "polygon-sdk": {
+                "title": "Polygon ID",
+                "desc": "Build trusted and secure relationships between users and dApps, following the principles of self sovereign identity and privacy by default."
+            }
+        }
+    },
+    "emissions-section": {
+        "title": "Hello world, goodbye emissions",
+        "desc":  {
+            "part-1": "We are leveraging our core blockchain solutions and services to be proactive in the fight against climate change.",
+            "span": "Polygon is carbon neutral",
+            "part-2": ", with plans to be climate positive."
+        }
+    },
+    "ecosystem-option": {
+        "title": "The largest and most thriving ecosystem",
+        "cards": {
+            "card-1": {
+                "title": "Total Contract Creators",
+                "number": "28K+"
+            },
+            "card-2": {
+                "title": "Unique Addresses",
+                "number": "219.11M+"
+            },
+            "card-3": {
+                "title": "Transactions",
+                "number": "2.44B+"
+            },
+            "card-4": {
+                "title": "NFT Sales Volume",
+                "number": "12.80B+"
+            },
+            "card-5": {
+                "title": "Avg. Cost per txn",
+                "number": "~$0.015"
+            },
+            "card-6": {
+                "title": "Deployed Smart Contracts",
+                "number": "1.17M+"
+            }
+        }
+    },
+    "options-section": {
+        "title": "Time to roll up your sleeves",
+        "cards": {
+            "irl": {
+                "title": "Connect IRL",
+                "desc": "Meet up with our community at hackathons, conferences, and events worldwide.",
+                "action": "View Events"
+            },
+            "matic": {
+                "title": "Explore MATIC",
+                "desc": "MATIC is the currency of Polygon that enables users to interact with tens of thousands of dApps in our ecosystem.",
+                "action": "Learn More"
+            },
+            "govern": {
+                "title": "Govern",
+                "desc": "Participate in shaping Polygon protocols.",
+                "action": "Learn More"
+            },
+            "polygon": {
+                "title": "Build on Polygon",
+                "desc": "Get to know our modular, flexible framework that provides solutions and supports building a variety of applications.",
+                "action": "Developer Docs"
+            }
+        }
+    },
+    "news-section": {
+        "title": "In the news",
+        "carousel": {
+            "card-1": {
+                "title": "Bridged USDC Standard Now Integrated with Polygon CDK",
+                "date": "July 24, 2024",
+                "category": "Polygon CDK"
+            },
+            "card-2": {
+                "title": "Polygon Labs x Irreducible: A Binius-based zkVM",
+                "date": "July 23, 2024",
+                "category": "Plygon Solutions"
+            }, 
+            "card-3": {
+                "title": "",
+                "date": "June 19, 2024",
+                "category": "Polygon News"
+            },
+            "card-4": {
+                "title": "Polygon Miden Alpha Testnet v3 is Live",
+                "date": "June 2, 2024",
+                "category": "Aggregation"
+            },
+            "card-5": {
+                "title": "Polygon PoS Validator Spotlight: Everstake",
+                "date": "May 13, 2024",
+                "category": "Plygon Solutions"
+            }
+        },
+        "email": {
+            "title":"Got our newsletter",
+            "sub-title": "STAY UP TO DATE",
+            "text": "Enter your email"
+        }
+    }
+}

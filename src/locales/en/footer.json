@@ -1,0 +1,54 @@
+{
+    "footer-menu": {
+        "solutions": {
+            "title": "Solutions",
+            "polygon-pos": "Polygon PoS",
+            "polygon-zkevm": "Polygon zkEVM",
+            "polygon-cdk": "Polygon CDK",
+            "polygon-miden": "Polygon Miden",
+            "polygon-id": "Polygon ID",
+            "aggregation-layer": "Aggregation Layer"
+        },
+        "use-polygon": {
+            "title": "Use Polygon",
+            "polygon-portal": "Polygon Portal",
+            "staking": "Staking",
+            "polygon-scan": "Polygon Scan",
+            "faucet": "Faucet",
+            "token-mapper": "Token Mapper",
+            "ecosystem-dapps": "Ecosystem dApps"
+        },
+        "developers": {
+            "title": "Developers",
+            "developer-hub": "Developer Hub",
+            "tech-docs": "Tech Docs",
+            "github": "GitHub",
+            "forum": "Forum",
+            "security": "Security"
+        },
+        "community": {
+            "title": "Community",
+            "community-home": "Community Home",
+            "polygon-guilds": "Polygon Guilds",
+            "join-now": "JOIN NOW!",
+            "advocate-program": "Advocate Program",
+            "events": "Events",
+            "ecosystem-jobs": "Ecosystem Jobs",
+            "governance-pillars": "Governance Pillars",
+            "devx-global-tour": "DevX Global Tour"
+        },
+        "general": {
+            "title": "General",
+            "about": "About",
+            "blog": "Blog",
+            "careers": "Careers",
+            "sustainability": "Sustainability",
+            "matic-token": "Matic Token",
+            "polygon-ventures": "Polygon Ventures",
+            "brand-guidelines": "Brand Guidelines",
+            "institutions": "Institutions",
+            "contact-us": "Contact Us"
+        },
+        "footer-text": "© 2024 Polygon Labs UI (Cayman) Ltd. |  All rights reserved"
+    }
+}
