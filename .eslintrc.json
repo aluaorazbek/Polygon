@@ -1,3 +1,144 @@
 {
-  "extends": "next/core-web-vitals"
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": [
+    "next/core-web-vitals",
+    "airbnb",
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "import"],
+  "rules": {
+    "no-plusplus": "off",
+    "import/no-cycle": "off",
+    "no-param-reassign": "off",
+    "class-methods-use-this": "off",
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/no-array-index-key": "off",
+    "react/react-in-jsx-scope": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "react/require-default-props": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/function-component-definition": "off",
+    "@typescript-eslint/no-shadow": "off",
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          ["builtin"],
+          ["external"],
+          ["internal"],
+          ["parent", "sibling", "index"]
+        ],
+        "pathGroups": [
+          {
+            "pattern": "react{,-*}{,/**}",
+            "group": "external",
+            "position": "before"
+          },
+          {
+            "pattern": "next{,-*}{,/**}",
+            "group": "external",
+            "position": "before"
+          },
+          {
+            "pattern": "#/libs/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "#/public/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "#/constants/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "#/providers/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "#/components/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "#/views/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "#/stores/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "#/hooks/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "#/services/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "#/actions/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "#/types/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "#/app/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "#/utils/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "#/styles/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "#/**",
+            "group": "internal",
+            "position": "after"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": ["builtin"],
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ]
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "overrides": [
+    {
+      "files": ["*.js"],
+      "extends": ["plugin:@typescript-eslint/disable-type-checked"]
+    }
+  ]
 }
