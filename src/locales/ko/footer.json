@@ -1,0 +1,54 @@
+{
+    "footer_menu": {
+        "solutions": {
+            "title": "솔루션",
+            "polygon_pos": "폴리곤 PoS",
+            "polygon_zkevm": "폴리곤 zkEVM",
+            "polygon_cdk": "폴리곤 CDK",
+            "polygon_miden": "폴리곤 미덴",
+            "polygon_id": "폴리곤 ID",
+            "aggregation_layer": "집계 레이어"
+        },
+        "use_polygon": {
+            "title": "폴리곤 사용",
+            "polygon_portal": "폴리곤 포털",
+            "staking": "스테이킹",
+            "polygon_scan": "폴리곤 스캔",
+            "faucet": "파우셋",
+            "token_mapper": "토큰 매퍼",
+            "ecosystem_dapps": "생태계 dApps"
+        },
+        "developers": {
+            "title": "개발자",
+            "developer_hub": "개발자 허브",
+            "tech_docs": "기술 문서",
+            "github": "GitHub",
+            "forum": "포럼",
+            "security": "보안"
+        },
+        "community": {
+            "title": "커뮤니티",
+            "community_home": "커뮤니티 홈",
+            "polygon_guilds": "폴리곤 길드",
+            "join_now": "지금 가입하기!",
+            "advocate_program": "옹호 프로그램",
+            "events": "이벤트",
+            "ecosystem_jobs": "생태계 채용",
+            "governance_pillars": "거버넌스 기둥",
+            "devx_global_tour": "DevX 글로벌 투어"
+        },
+        "general": {
+            "title": "일반",
+            "about": "회사 소개",
+            "blog": "블로그",
+            "careers": "경력",
+            "sustainability": "지속 가능성",
+            "matic_token": "매틱 토큰",
+            "polygon_ventures": "폴리곤 벤처스",
+            "brand_guidelines": "브랜드 가이드라인",
+            "institutions": "기관",
+            "contact_us": "문의하기"
+        },
+        "footer_text": "© 2024 Polygon Labs UI (Cayman) Ltd. | 모든 권리 보유"
+    }
+}

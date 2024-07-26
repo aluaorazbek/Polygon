@@ -6,15 +6,15 @@
     "nav": {
         "solutions": {
             "title": "Solutions",
-            "sub-title": {
-                "public-chains": {
+            "sub_title": {
+                "public_chains": {
                     "title": "PUBLIC CHAINS",
-                    "polygon-pos": {
+                    "polygon_pos": {
                         "title": "Polygon PoS",
                         "desc": "An EVM enabled sidechain",
-                        "sub-title": "POS APPLICATIONS SOLUTIONS",
+                        "sub_title": "POS APPLICATIONS SOLUTIONS",
                         "solutions": {
-                            "polygon-portal": {
+                            "polygon_portal": {
                                 "title": "Polygon-Portal",
                                 "desc": "Send and receive crypto assets"
                             },
@@ -22,7 +22,7 @@
                                 "title": "Staking",
                                 "desc": "Stake MATIC to earn rewards"
                             },
-                            "polygon-scan": {
+                            "polygon_scan": {
                                 "title": "Polygon-Scan",
                                 "desc": "Explore transactions on Polygon"
                             },
@@ -30,41 +30,41 @@
                                 "title": "Faucet",
                                 "desc": "Get test tokens to experiment on testnet"
                             },
-                            "token-mapper": {
+                            "token_mapper": {
                                 "title": "Token-Mapper",
                                 "desc": "Get test tokens to experiment on testnet"
                             }
                         }
                     },
-                    "polygon-zkevm": {
+                    "polygon_zkevm": {
                         "title": "Polygon zkEVM",
                         "desc": "An EVM equivalent, open-source zk-Rollup",
-                        "sub-title": "ZKEVM APPLICATIONS SOLUTIONS",
+                        "sub_title": "ZKEVM APPLICATIONS SOLUTIONS",
                         "solutions": {
-                            "zkevm-apps": {
+                            "zkevm_apps": {
                                 "title": "zkEVM Ecosystem dApps",
                                 "desc": "Explore zkEVM in the Polygon zkEVM Ecosystem dApps"
                             },
-                            "zkevm-bridge": {
+                            "zkevm_bridge": {
                                 "title": "zkEVM Ecosystem Bridge",
                                 "desc": "Send and receive crypto assets"
                             }
                         }
                     },
-                    "polygon-miden": {
+                    "polygon_miden": {
                         "title": "Polygon-Miden"
                     }
                 },
-                "app-specific-chain": {
+                "app_specific_chain": {
                     "title": "APP SPECIFIC CHAIN",
-                    "polygon-cdk": {
+                    "polygon_cdk": {
                         "title": "Polygon CDK",
                         "desc": "Polygon Chain Development Kit (CDK) enables you to build your own ZK-powered Layer 2 custom-fitted to your needs."
                     }
                 },
-                "decentralized-identity": {
+                "decentralized_identity": {
                     "title": "DECENTRALIZED IDENTITY",
-                    "polygon-id": {
+                    "polygon_id": {
                         "title": "Polygon ID",
                         "desc": "Polygon Chain Development Kit (CDK) enables you to build your own ZK-powered Layer 2 custom-fitted to your needs."
                     }
@@ -79,11 +79,11 @@
                     "title": "Documentation",
                     "desc": "Explore our protocol documents and wiki"
                 },
-                "solution-provider-network": {
+                "solution_provider_network": {
                     "title": "Solution Provider Network",
                     "desc": "Explore our protocol documents and wiki"
                 },
-                "polygon-learn": {
+                "polygon_learn": {
                     "title": "Plygon Learn",
                     "desc": "Explore our protocol documents and wiki"
                 }
@@ -98,9 +98,9 @@
         "company": {
             "title": "Company"
         },
-        "use-polygon": {
+        "use_polygon": {
             "title": "Use Plygon"
         }
     },
-    "build-polygon": "Build On Polygon"
+    "build_polygon": "Build On Polygon"
 }

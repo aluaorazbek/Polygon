@@ -6,15 +6,15 @@
     "nav": {
         "solutions": {
             "title": "솔루션",
-            "sub-title": {
-                "public-chains": {
+            "sub_title": {
+                "public_chains": {
                     "title": "공공 체인",
-                    "polygon-pos": {
+                    "polygon_pos": {
                         "title": "폴리곤 PoS",
                         "desc": "EVM이 지원되는 사이드체인",
-                        "sub-title": "PoS 애플리케이션 솔루션",
+                        "sub_title": "PoS 애플리케이션 솔루션",
                         "solutions": {
-                            "polygon-portal": {
+                            "polygon_portal": {
                                 "title": "폴리곤 포털",
                                 "desc": "암호화 자산 보내기 및 받기"
                             },
@@ -22,7 +22,7 @@
                                 "title": "스테이킹",
                                 "desc": "MATIC을 스테이킹하여 보상 획득"
                             },
-                            "polygon-scan": {
+                            "polygon_scan": {
                                 "title": "폴리곤 스캔",
                                 "desc": "폴리곤의 거래 탐색"
                             },
@@ -30,41 +30,41 @@
                                 "title": "파우셋",
                                 "desc": "테스트넷에서 실험하기 위한 테스트 토큰 받기"
                             },
-                            "token-mapper": {
+                            "token_mapper": {
                                 "title": "토큰 매퍼",
                                 "desc": "테스트넷에서 실험하기 위한 테스트 토큰 받기"
                             }
                         }
                     },
-                    "polygon-zkevm": {
+                    "polygon_zkevm": {
                         "title": "폴리곤 zkEVM",
                         "desc": "EVM 등가의 오픈 소스 zk-Rollup",
-                        "sub-title": "zkEVM 애플리케이션 솔루션",
+                        "sub_title": "zkEVM 애플리케이션 솔루션",
                         "solutions": {
-                            "zkevm-apps": {
+                            "zkevm_apps": {
                                 "title": "zkEVM 생태계 dApps",
                                 "desc": "폴리곤 zkEVM 생태계 dApps 탐색"
                             },
-                            "zkevm-bridge": {
+                            "zkevm_bridge": {
                                 "title": "zkEVM 생태계 브리지",
                                 "desc": "암호화 자산 보내기 및 받기"
                             }
                         }
                     },
-                    "polygon-miden": {
+                    "polygon_miden": {
                         "title": "폴리곤 미덴"
                     }
                 },
-                "app-specific-chain": {
+                "app_specific_chain": {
                     "title": "앱 특정 체인",
-                    "polygon-cdk": {
+                    "polygon_cdk": {
                         "title": "폴리곤 CDK",
                         "desc": "폴리곤 체인 개발 키트 (CDK)는 필요에 맞게 맞춤형 ZK 기반 레이어 2를 구축할 수 있게 해줍니다."
                     }
                 },
-                "decentralized-identity": {
+                "decentralized_identity": {
                     "title": "탈중앙화 신원",
-                    "polygon-id": {
+                    "polygon_id": {
                         "title": "폴리곤 ID",
                         "desc": "폴리곤 체인 개발 키트 (CDK)는 필요에 맞게 맞춤형 ZK 기반 레이어 2를 구축할 수 있게 해줍니다."
                     }
@@ -79,11 +79,11 @@
                     "title": "문서",
                     "desc": "프로토콜 문서와 위키 탐색"
                 },
-                "solution-provider-network": {
+                "solution_provider_network": {
                     "title": "솔루션 제공자 네트워크",
                     "desc": "프로토콜 문서와 위키 탐색"
                 },
-                "polygon-learn": {
+                "polygon_learn": {
                     "title": "폴리곤 학습",
                     "desc": "프로토콜 문서와 위키 탐색"
                 }
@@ -98,9 +98,9 @@
         "company": {
             "title": "회사"
         },
-        "use-polygon": {
+        "use_polygon": {
             "title": "폴리곤 사용"
         }
     },
-    "build-polygon": "폴리곤에서 구축"
+    "build_polygon": "폴리곤에서 구축"
 }

@@ -1,41 +1,41 @@
 {
-    "footer-menu": {
+    "footer_menu": {
         "solutions": {
             "title": "Solutions",
-            "polygon-pos": "Polygon PoS",
-            "polygon-zkevm": "Polygon zkEVM",
-            "polygon-cdk": "Polygon CDK",
-            "polygon-miden": "Polygon Miden",
-            "polygon-id": "Polygon ID",
-            "aggregation-layer": "Aggregation Layer"
+            "polygon_pos": "Polygon PoS",
+            "polygon_zkevm": "Polygon zkEVM",
+            "polygon_cdk": "Polygon CDK",
+            "polygon_miden": "Polygon Miden",
+            "polygon_id": "Polygon ID",
+            "aggregation_layer": "Aggregation Layer"
         },
-        "use-polygon": {
+        "use_polygon": {
             "title": "Use Polygon",
-            "polygon-portal": "Polygon Portal",
+            "polygon_portal": "Polygon Portal",
             "staking": "Staking",
-            "polygon-scan": "Polygon Scan",
+            "polygon_scan": "Polygon Scan",
             "faucet": "Faucet",
-            "token-mapper": "Token Mapper",
-            "ecosystem-dapps": "Ecosystem dApps"
+            "token_mapper": "Token Mapper",
+            "ecosystem_dapps": "Ecosystem dApps"
         },
         "developers": {
             "title": "Developers",
-            "developer-hub": "Developer Hub",
-            "tech-docs": "Tech Docs",
+            "developer_hub": "Developer Hub",
+            "tech_docs": "Tech Docs",
             "github": "GitHub",
             "forum": "Forum",
             "security": "Security"
         },
         "community": {
             "title": "Community",
-            "community-home": "Community Home",
-            "polygon-guilds": "Polygon Guilds",
-            "join-now": "JOIN NOW!",
-            "advocate-program": "Advocate Program",
+            "community_home": "Community Home",
+            "polygon_guilds": "Polygon Guilds",
+            "join_now": "JOIN NOW!",
+            "advocate_program": "Advocate Program",
             "events": "Events",
-            "ecosystem-jobs": "Ecosystem Jobs",
-            "governance-pillars": "Governance Pillars",
-            "devx-global-tour": "DevX Global Tour"
+            "ecosystem_jobs": "Ecosystem Jobs",
+            "governance_pillars": "Governance Pillars",
+            "devx_global_tour": "DevX Global Tour"
         },
         "general": {
             "title": "General",
@@ -43,12 +43,12 @@
             "blog": "Blog",
             "careers": "Careers",
             "sustainability": "Sustainability",
-            "matic-token": "Matic Token",
-            "polygon-ventures": "Polygon Ventures",
-            "brand-guidelines": "Brand Guidelines",
+            "matic_token": "Matic Token",
+            "polygon_ventures": "Polygon Ventures",
+            "brand_guidelines": "Brand Guidelines",
             "institutions": "Institutions",
-            "contact-us": "Contact Us"
+            "contact_us": "Contact Us"
         },
-        "footer-text": "© 2024 Polygon Labs UI (Cayman) Ltd. |  All rights reserved"
+        "footer_text": "© 2024 Polygon Labs UI (Cayman) Ltd. |  All rights reserved"
     }
 }

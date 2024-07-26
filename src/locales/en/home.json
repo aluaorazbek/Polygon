@@ -1,7 +1,7 @@
 {
-    "top-section": {
+    "top_section": {
         "title": "Web3, Aggregated.",
-        "sub-title": "Intriducing: Agregaed Blockchains",
+        "sub_title": "Intriducing: Agregaed Blockchains",
         "desc": "Enabling an infinitely scalable web of sovereign blockchains that feels like a single chain. Powered by ZK tech.",
         "cards": {
             "build": {
@@ -12,7 +12,7 @@
                 "title": "Stake",
                 "desc": "Participate in securing the network by delegating MATIC tokens"
             },
-            "use-polygon": {
+            "use_polygon": {
                 "title": "use Polygon",
                 "desc": "Participate in securing the network by delegating MATIC tokens"
             }
@@ -32,77 +32,77 @@
             }
         }
     },
-    "scaling-section": {
+    "scaling_section": {
         "title": "The most adopted scaling technology",
-        "public-chains": {
+        "public_chains": {
             "title": "Public Chains",
-            "polygon-pos": {
+            "polygon_pos": {
                 "title": "Polygon PoS",
                 "desc": "Support the most widely used Ethereum scaling ecosystem that offers EVM compatibility and an ultimate user experience with fast transactions at near-zero gas fees today."
             },
-            "polygon-zkevm": {
+            "polygon_zkevm": {
                 "title": "Polygon zkEVM",
                 "desc": "Unlock Ethereum scalability while maintaining security with the first ZK-rollup that offers EVM equivalence with fast transactions at near-zero gas cost today."
             },
-            "polygon-miden": {
+            "polygon_miden": {
                 "title": "Polygon Miden",
                 "desc": "A decentralized rollup that leverages private data storage and local transaction execution. Because privacy scales better."
             }
         },
-        "app-specific_chains": {
+        "app_specific_chains": {
             "title": "App Specific Chains",
-            "polygon-sdk": {
+            "polygon_sdk": {
                 "title": "Polygon CDK",
                 "desc": "Build Ethereum Layer 2s with industry-leading ZK tech & ecosystem."
             }
         },
-        "decentralized-idebntity": {
+        "decentralized_idebntity": {
             "title": "Decentralized Idebntity",
-            "polygon-sdk": {
+            "polygon_sdk": {
                 "title": "Polygon ID",
                 "desc": "Build trusted and secure relationships between users and dApps, following the principles of self sovereign identity and privacy by default."
             }
         }
     },
-    "emissions-section": {
-        "title-1": "Hello world,",
-        "title-2": "goodbye emissions",
+    "emissions_section": {
+        "title_1": "Hello world,",
+        "title_2": "goodbye emissions",
         "desc":  {
-            "part-1": "We are leveraging our core blockchain solutions and services to be proactive in the fight against climate change.",
+            "part_1": "We are leveraging our core blockchain solutions and services to be proactive in the fight against climate change.",
             "span": " Polygon is carbon neutral",
-            "part-2": ", with plans to be climate positive."
+            "part_2": ", with plans to be climate positive."
         }
     },
-    "ecosystem-option": {
+    "ecosystem_option": {
         "title": "The largest and most thriving ecosystem",
         "cards": {
-            "card-1": {
+            "card_1": {
                 "title": "Total Contract Creators",
                 "number": "28K+"
             },
-            "card-2": {
+            "card_2": {
                 "title": "Unique Addresses",
                 "number": "219.11M+"
             },
-            "card-3": {
+            "card_3": {
                 "title": "Transactions",
                 "number": "2.44B+"
             },
-            "card-4": {
+            "card_4": {
                 "title": "NFT Sales Volume",
                 "number": "12.80B+"
             },
-            "card-5": {
+            "card_5": {
                 "title": "Avg. Cost per txn",
                 "number": "~$0.015"
             },
-            "card-6": {
+            "card_6": {
                 "title": "Deployed Smart Contracts",
                 "number": "1.17M+"
             }
         }
     },
-    "options-section": {
+    "options_section": {
         "title": "Time to roll up your sleeves",
         "cards": {
             "irl": {
@@ -127,38 +127,38 @@
             }
         }
     },
-    "news-section": {
+    "news_section": {
         "title": "In the news",
         "carousel": {
-            "card-1": {
+            "card_1": {
                 "title": "Bridged USDC Standard Now Integrated with Polygon CDK",
                 "date": "July 24, 2024",
                 "category": "Polygon CDK"
             },
-            "card-2": {
+            "card_2": {
                 "title": "Polygon Labs x Irreducible: A Binius-based zkVM",
                 "date": "July 23, 2024",
                 "category": "Plygon Solutions"
             }, 
-            "card-3": {
+            "card_3": {
                 "title": "",
                 "date": "June 19, 2024",
                 "category": "Polygon News"
             },
-            "card-4": {
+            "card_4": {
                 "title": "Polygon Miden Alpha Testnet v3 is Live",
                 "date": "June 2, 2024",
                 "category": "Aggregation"
             },
-            "card-5": {
+            "card_5": {
                 "title": "Polygon PoS Validator Spotlight: Everstake",
                 "date": "May 13, 2024",
                 "category": "Plygon Solutions"
             }
         },
         "email": {
-            "title":"Got our newsletter",
-            "sub-title": "STAY UP TO DATE",
+            "title": "Got our newsletter",
+            "sub_title": "STAY UP TO DATE",
             "text": "Enter your email"
         }
     }
