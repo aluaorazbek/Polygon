@@ -49,7 +49,7 @@
                 "desc": "A decentralized rollup that leverages private data storage and local transaction execution. Because privacy scales better."
             }
         },
-        "app-specific-chains": {
+        "app-specific_chains": {
             "title": "App Specific Chains",
             "polygon-sdk": {
                 "title": "Polygon CDK",
@@ -65,10 +65,11 @@
         }
     },
     "emissions-section": {
-        "title": "Hello world, goodbye emissions",
+        "title-1": "Hello world,",
+        "title-2": "goodbye emissions",
         "desc":  {
             "part-1": "We are leveraging our core blockchain solutions and services to be proactive in the fight against climate change.",
-            "span": "Polygon is carbon neutral",
+            "span": " Polygon is carbon neutral",
             "part-2": ", with plans to be climate positive."
         }
     },

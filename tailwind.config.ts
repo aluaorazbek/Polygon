@@ -58,9 +58,9 @@ const tailwindConfig = {
         base: ["16px", "150%"],
         lg: ["18px", "150%"],
         xl: ["20px", "150%"],
-        "2xl": ["24px", "150%"],
+        "2xl": ["1.5rem", "150%"],
         "3xl": ["30px", "150%"],
-        "4xl": ["36px", "150%"],
+        "4xl": ["3.75rem", "150%"],
       },
       zIndex: {
         menu: "200",
@@ -79,6 +79,9 @@ const tailwindConfig = {
       opacity: {
         79: "0.79",
       },
+    },
+    backgroundImage: {
+      'custom-gradient': 'linear-gradient(180deg, #0F0E11 0%, #0A090D 21.76%)',
     },
   },
   plugins: [

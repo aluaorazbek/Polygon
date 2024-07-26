@@ -60,7 +60,7 @@ const LocaleLayout = ({
   <html
     lang={locale}
     dir={dir(locale)}
-    className={`${generalSans.variable} dark`}
+    className={`${generalSans.className} dark`}
   >
     <body>
       {process.env.NEXT_PUBLIC_MAINTENANCE === "true" ? (

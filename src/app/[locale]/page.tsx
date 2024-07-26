@@ -1,5 +1,8 @@
-const HomePage = () => (
-  <main className="relative mx-auto pb-[22.5rem] tablet:pb-[12rem] mobile:pb-[10rem] px-6 mobile:px-4 box-content" />
-);
+import Emissions from "#/src/views/home/Emissions"
 
-export default HomePage;
+const HomePage = () => (
+		<main className="">
+			<Emissions />
+		</main>
+)
+export default HomePage
