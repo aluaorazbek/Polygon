@@ -81,7 +81,7 @@ const tailwindConfig = {
       },
     },
     backgroundImage: {
-      'custom-gradient': 'linear-gradient(180deg, #0F0E11 0%, #0A090D 21.76%)',
+      'custom-gradient': 'linear-gradient(180deg, #0F0E11 0%, #010101 21.76%)',
     },
   },
   plugins: [
