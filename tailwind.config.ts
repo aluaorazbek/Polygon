@@ -49,16 +49,8 @@ const tailwindConfig = {
         },
       },
       fontSize: {
-        xxxs: ["0.5625rem", "150%"],  // 9px 
-        xxs: ["0.6875rem", "150%"],   // 11px
-        xs: ["0.75rem", "150%"],      // 12px
-        sm: ["0.875rem", "150%"],     // 14px 
-        base: ["1rem", "150%"],       // 16px 
-        lg: ["1.125rem", "150%"],     // 18px 
-        xl: ["1.25rem", "150%"],      // 20px 
-        "2xl": ["1.5rem", "150%"],    // 24px
-        "3xl": ["1.875rem", "150%"],  // 30px 
-        "4xl": ["3.75rem", "150%"]    // 60px
+        '3xs': ["0.5625rem", "150%"],  // 9px 
+        '2xs': ["0.6875rem", "150%"],   // 11px
       },
       zIndex: {
         menu: "200",
@@ -70,13 +62,13 @@ const tailwindConfig = {
 
     },
     backgroundImage: {
-      "custom-gradient-cover":
+      "gradient-cover":
         "linear-gradient(180deg, #0F0E11 0%, #010101 21.76%)",
-      "custom-gradient-btn-gray": "linear-gradient(#18161c,#121014)",
-      "custom-gradient-btn-purple": "linear-gradient(#8a46ff,#6e38cc)",
-      "custom-gradient-btn-green":
+      "gradient-btn-gray": "linear-gradient(#18161c,#121014)",
+      "gradient-btn-purple": "linear-gradient(#8a46ff,#6e38cc)",
+      "gradient-btn-green":
         "linear-gradient(91.88deg, #0070C0 -22.71%, #00993D 111.33%)",
-      "custom-gradient-btn-green-hover":
+      "gradient-btn-green-hover":
         "linear-gradient(91.88deg, #28a745 -22.71%, #3388cc 111.33%)",
     },
   },

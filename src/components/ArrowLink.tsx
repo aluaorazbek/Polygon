@@ -55,15 +55,15 @@ const ArrowLink = ({ label, color = "default", link = "#" }: TProps) => {
   };
 
   const backgroundMapping = {
-    default: "bg-custom-gradient-btn-gray",
-    purple: "bg-custom-gradient-btn-purple hover:bg-white",
-    gradient: "bg-custom-gradient-btn-green",
+    default: "bg-gradient-btn-gray",
+    purple: "bg-gradient-btn-purple hover:bg-white",
+    gradient: "bg-gradient-btn-green",
   };
 
   const hoverMapping = {
     default: "",
     purple: isHovered ? "bg-white text-black" : "",
-    gradient: "hover:bg-custom-gradient-btn-green-hover",
+    gradient: "hover:bg-gradient-btn-green-hover",
   };
 
   return (

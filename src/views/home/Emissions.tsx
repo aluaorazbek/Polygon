@@ -12,7 +12,7 @@ const Emissions = () => {
   console.log(sections);
   const videoList = [];
   return (
-    <section className="bg-custom-gradient-cover border-t border-gray-500">
+    <section className="bg-gradient-cover border-t border-gray-500">
       <div className="flex flex-col items-center justify-center px-10 py-24">
         <div className="text-center text-white max-w-lg mb-10">
           <h2 className="font-medium text-4xl mb-8 leading-tight tablet:text-xl">
