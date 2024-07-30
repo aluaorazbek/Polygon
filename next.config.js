@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const path = require('path');
+
 const nextConfig = {
   reactStrictMode: false,
   webpack(config) {
@@ -19,6 +21,10 @@ const nextConfig = {
       },
     );
     fileLoaderRule.exclude = /\.svg$/i;
+
+    // alias configuration
+    config.resolve.alias['#'] = path.resolve(__dirname, 'src');
+
     return config;
   },
   async headers() {
