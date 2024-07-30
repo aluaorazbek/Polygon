@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const path = require('path');
+const path = require("path");
 
 const nextConfig = {
   reactStrictMode: false,
@@ -23,26 +23,26 @@ const nextConfig = {
     fileLoaderRule.exclude = /\.svg$/i;
 
     // alias configuration
-	config.resolve.alias = {
-		...config.resolve.alias,
-		"#": path.resolve(__dirname),
-		"#/public": path.resolve(__dirname, "public"),
-		"#/app": path.resolve(__dirname, "src/app"),
-		"#/components": path.resolve(__dirname, "src/components"),
-		"#/constants": path.resolve(__dirname, "src/constants"),
-		"#/hooks": path.resolve(__dirname, "src/hooks"),
-		"#/libs": path.resolve(__dirname, "src/libs"),
-		"#/actions": path.resolve(__dirname, "src/actions"),
-		"#/mock-data": path.resolve(__dirname, "src/mock-data"),
-		"#/providers": path.resolve(__dirname, "src/providers"),
-		"#/services": path.resolve(__dirname, "src/services"),
-		"#/stores": path.resolve(__dirname, "src/stores"),
-		"#/locales": path.resolve(__dirname, "src/locales"),
-		"#/styles": path.resolve(__dirname, "src/styles"),
-		"#/types": path.resolve(__dirname, "src/types"),
-		"#/utils": path.resolve(__dirname, "src/utils"),
-		"#/views": path.resolve(__dirname, "src/views"),
-	  };
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      "#": path.resolve(__dirname),
+      "#/public": path.resolve(__dirname, "public"),
+      "#/app": path.resolve(__dirname, "src/app"),
+      "#/components": path.resolve(__dirname, "src/components"),
+      "#/constants": path.resolve(__dirname, "src/constants"),
+      "#/hooks": path.resolve(__dirname, "src/hooks"),
+      "#/libs": path.resolve(__dirname, "src/libs"),
+      "#/actions": path.resolve(__dirname, "src/actions"),
+      "#/mock-data": path.resolve(__dirname, "src/mock-data"),
+      "#/providers": path.resolve(__dirname, "src/providers"),
+      "#/services": path.resolve(__dirname, "src/services"),
+      "#/stores": path.resolve(__dirname, "src/stores"),
+      "#/locales": path.resolve(__dirname, "src/locales"),
+      "#/styles": path.resolve(__dirname, "src/styles"),
+      "#/types": path.resolve(__dirname, "src/types"),
+      "#/utils": path.resolve(__dirname, "src/utils"),
+      "#/views": path.resolve(__dirname, "src/views"),
+    };
 
     return config;
   },
