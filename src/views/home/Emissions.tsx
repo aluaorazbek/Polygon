@@ -13,7 +13,7 @@ const Emissions = () => {
 
   const sections = t("scaling_section.public_chains", { returnObjects: true });
   console.log(sections);
-  const videoList = [];
+//   const videoList = [];
   return (
     <section className="bg-gradient-cover border-t border-gray-500">
       <div className="flex flex-col items-center justify-center px-10 py-24">
