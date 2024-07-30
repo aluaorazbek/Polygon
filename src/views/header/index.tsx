@@ -3,7 +3,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import useLocale from "#/hooks/useLocale";
+import useLocale from "#/src/hooks/use-locale";
 
 const Header = () => {
   const { t } = useTranslation("header");

@@ -49,8 +49,8 @@ const tailwindConfig = {
         },
       },
       fontSize: {
-        '3xs': ["0.5625rem", "150%"],  // 9px 
-        '2xs': ["0.6875rem", "150%"],   // 11px
+        "3xs": ["0.5625rem", "150%"], // 9px
+        "2xs": ["0.6875rem", "150%"], // 11px
       },
       zIndex: {
         menu: "200",
@@ -59,11 +59,9 @@ const tailwindConfig = {
         modal: "100",
         select: "90",
       },
-
     },
     backgroundImage: {
-      "gradient-cover":
-        "linear-gradient(180deg, #0F0E11 0%, #010101 21.76%)",
+      "gradient-cover": "linear-gradient(180deg, #0F0E11 0%, #010101 21.76%)",
       "gradient-btn-gray": "linear-gradient(#18161c,#121014)",
       "gradient-btn-purple": "linear-gradient(#8a46ff,#6e38cc)",
       "gradient-btn-green":

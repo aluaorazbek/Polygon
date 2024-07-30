@@ -1,9 +1,12 @@
 "use client";
 
 import { useTranslation } from "react-i18next";
+
 import Image from "next/image";
+
 import EmmisionsImg from "#/public/ui/emission.webp";
-import ArrowLink from "#/src/components/ArrowLink";
+
+import ArrowLink from "#/src/components/arrow-link";
 
 const Emissions = () => {
   const { t } = useTranslation("home");

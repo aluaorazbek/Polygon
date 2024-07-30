@@ -1,4 +1,4 @@
-import Emissions from "#/src/views/home/Emissions";
+import Emissions from "#/src/views/home/emissions";
 
 const HomePage = () => (
   <main className="">

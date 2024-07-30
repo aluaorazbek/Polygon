@@ -2,7 +2,7 @@
 
 import React, { PropsWithChildren } from "react";
 
-import TranslationsProvider from "#/providers/Translations";
+import TranslationsProvider from "#/src/providers/translations";
 
 const AppProvider = ({
   children,
