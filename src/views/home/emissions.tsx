@@ -30,7 +30,7 @@ const Emissions = () => {
             {t("emissions_section.desc.part_2")}
           </p>
         </div>
-        <ArrowLink label="Read More" color="gradient" />
+        <ArrowLink color="gradient" href={"#"}>Learn More</ArrowLink>
         <Image src={EmmisionsImg} width={1100} alt="" className="" />
       </div>
     </section>

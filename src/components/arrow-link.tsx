@@ -1,5 +1,6 @@
-import React, { LinkHTMLAttributes, useState } from "react";
+import React, { PropsWithChildren, useState } from "react";
 
+import { LinkProps } from "next/dist/client/link";
 import Link from "next/link";
 
 import { motion, useAnimation } from "framer-motion";
@@ -8,12 +9,10 @@ import { twMerge } from "tailwind-merge";
 import ArrowIcon from "#/public/icon/arrow-right-up.svg";
 
 type TProps = {
-  link?: string;
-  label?: string;
   color?: "default" | "purple" | "gradient";
-} & LinkHTMLAttributes<HTMLLinkElement>;
+} & PropsWithChildren<LinkProps>;
 
-const ArrowLink = ({ label, color = "default", link = "#" }: TProps) => {
+const ArrowLink = ({ color = "default", href, children }: TProps) => {
   const controls1 = useAnimation();
   const controls2 = useAnimation();
   const [isHovered, setIsHovered] = useState(false);
@@ -56,29 +55,22 @@ const ArrowLink = ({ label, color = "default", link = "#" }: TProps) => {
 
   const backgroundMapping = {
     default: "bg-gradient-btn-gray",
-    purple: "bg-gradient-btn-purple hover:bg-white",
-    gradient: "bg-gradient-btn-green",
-  };
-
-  const hoverMapping = {
-    default: "",
-    purple: isHovered ? "bg-white text-black" : "",
-    gradient: "hover:bg-gradient-btn-green-hover",
+    purple: isHovered ? "bg-white text-black" : "bg-gradient-btn-purple",
+    gradient: "bg-gradient-btn-green hover:bg-gradient-btn-green-hover",
   };
 
   return (
     <Link
-      href={link}
+      href={href}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       className={twMerge(
         "inline-block items-center relative text-white p-2.5 pl-3.5 rounded-[3rem]",
         backgroundMapping[color],
-        hoverMapping[color],
       )}
     >
       <div className="flex items-center gap-1.5">
-        {label && <span className="text-sm font-medium">{label}</span>}
+        {children && <span className="text-sm font-medium">{children}</span>}
         <div className="relative w-6 h-6">
           <motion.div
             className="absolute w-6 h-6"
