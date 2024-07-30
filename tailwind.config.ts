@@ -1,8 +1,6 @@
 /* eslint-disable global-require */
 import { Config } from "tailwindcss";
 
-import { generatePxToRemMapping } from "./src/utils/tailwind";
-
 const tailwindConfig = {
   darkMode: "class",
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
@@ -51,16 +49,16 @@ const tailwindConfig = {
         },
       },
       fontSize: {
-        xxxs: ["9px", "150%"],
-        xxs: ["11px", "150%"],
-        xs: ["12px", "150%"],
-        sm: ["14px", "150%"],
-        base: ["16px", "150%"],
-        lg: ["18px", "150%"],
-        xl: ["20px", "150%"],
-        "2xl": ["1.5rem", "150%"],
-        "3xl": ["30px", "150%"],
-        "4xl": ["3.75rem", "150%"],
+        xxxs: ["0.5625rem", "150%"],  // 9px 
+        xxs: ["0.6875rem", "150%"],   // 11px
+        xs: ["0.75rem", "150%"],      // 12px
+        sm: ["0.875rem", "150%"],     // 14px 
+        base: ["1rem", "150%"],       // 16px 
+        lg: ["1.125rem", "150%"],     // 18px 
+        xl: ["1.25rem", "150%"],      // 20px 
+        "2xl": ["1.5rem", "150%"],    // 24px
+        "3xl": ["1.875rem", "150%"],  // 30px 
+        "4xl": ["3.75rem", "150%"]    // 60px
       },
       zIndex: {
         menu: "200",
@@ -69,16 +67,7 @@ const tailwindConfig = {
         modal: "100",
         select: "90",
       },
-      spacing: {
-        ...generatePxToRemMapping(),
-      },
 
-      boxShadow: {
-        custom: "0px 0px 8px 5px rgba(0, 0, 0, 0.25)",
-      },
-      opacity: {
-        79: "0.79",
-      },
     },
     backgroundImage: {
       "custom-gradient-cover":

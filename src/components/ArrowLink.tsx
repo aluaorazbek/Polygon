@@ -72,16 +72,16 @@ const ArrowLink = ({ label, color = "default", link = "#" }: TProps) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       className={twMerge(
-        "inline-block items-center relative text-white p-10 pl-14 rounded-[48px]",
+        "inline-block items-center relative text-white p-2.5 pl-3.5 rounded-[3rem]",
         backgroundMapping[color],
         hoverMapping[color],
       )}
     >
-      <div className="flex items-center gap-6">
+      <div className="flex items-center gap-1.5">
         {label && <span className="text-sm font-medium">{label}</span>}
-        <div className="relative w-24 h-24">
+        <div className="relative w-6 h-6">
           <motion.div
-            className="absolute w-24 h-24"
+            className="absolute w-6 h-6"
             initial={{ x: 0, y: 0 }}
             animate={controls1}
           >
@@ -94,7 +94,7 @@ const ArrowLink = ({ label, color = "default", link = "#" }: TProps) => {
             />
           </motion.div>
           <motion.div
-            className="absolute w-24 h-24"
+            className="absolute w-6 h-6"
             initial={{ x: -10, y: 10, opacity: 0 }}
             animate={controls2}
           >
