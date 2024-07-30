@@ -6,7 +6,7 @@ import Image from "next/image";
 
 import EmmisionsImg from "#/public/ui/emission.webp";
 
-import ArrowLink from "#/src/components/arrow-link";
+import ArrowLink from "#/components/arrow-link";
 
 const Emissions = () => {
   const { t } = useTranslation("home");
