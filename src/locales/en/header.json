@@ -1,106 +1,106 @@
 {
-    "locales": {
-        "en": "EN",
-        "ko": "KOR"
-    },
-    "nav": {
-        "solutions": {
-            "title": "Solutions",
-            "sub_title": {
-                "public_chains": {
-                    "title": "PUBLIC CHAINS",
-                    "polygon_pos": {
-                        "title": "Polygon PoS",
-                        "desc": "An EVM enabled sidechain",
-                        "sub_title": "POS APPLICATIONS SOLUTIONS",
-                        "solutions": {
-                            "polygon_portal": {
-                                "title": "Polygon-Portal",
-                                "desc": "Send and receive crypto assets"
-                            },
-                            "staking": {
-                                "title": "Staking",
-                                "desc": "Stake MATIC to earn rewards"
-                            },
-                            "polygon_scan": {
-                                "title": "Polygon-Scan",
-                                "desc": "Explore transactions on Polygon"
-                            },
-                            "faucet": {
-                                "title": "Faucet",
-                                "desc": "Get test tokens to experiment on testnet"
-                            },
-                            "token_mapper": {
-                                "title": "Token-Mapper",
-                                "desc": "Get test tokens to experiment on testnet"
-                            }
-                        }
-                    },
-                    "polygon_zkevm": {
-                        "title": "Polygon zkEVM",
-                        "desc": "An EVM equivalent, open-source zk-Rollup",
-                        "sub_title": "ZKEVM APPLICATIONS SOLUTIONS",
-                        "solutions": {
-                            "zkevm_apps": {
-                                "title": "zkEVM Ecosystem dApps",
-                                "desc": "Explore zkEVM in the Polygon zkEVM Ecosystem dApps"
-                            },
-                            "zkevm_bridge": {
-                                "title": "zkEVM Ecosystem Bridge",
-                                "desc": "Send and receive crypto assets"
-                            }
-                        }
-                    },
-                    "polygon_miden": {
-                        "title": "Polygon-Miden"
-                    }
-                },
-                "app_specific_chain": {
-                    "title": "APP SPECIFIC CHAIN",
-                    "polygon_cdk": {
-                        "title": "Polygon CDK",
-                        "desc": "Polygon Chain Development Kit (CDK) enables you to build your own ZK-powered Layer 2 custom-fitted to your needs."
-                    }
-                },
-                "decentralized_identity": {
-                    "title": "DECENTRALIZED IDENTITY",
-                    "polygon_id": {
-                        "title": "Polygon ID",
-                        "desc": "Polygon Chain Development Kit (CDK) enables you to build your own ZK-powered Layer 2 custom-fitted to your needs."
-                    }
-                }
+  "locales": {
+    "en": "EN",
+    "ko": "KOR"
+  },
+  "nav": {
+    "solutions": {
+      "title": "Solutions",
+      "sub_title": {
+        "public_chains": {
+          "title": "PUBLIC CHAINS",
+          "polygon_pos": {
+            "title": "Polygon PoS",
+            "desc": "An EVM enabled sidechain",
+            "sub_title": "POS APPLICATIONS SOLUTIONS",
+            "solutions": {
+              "polygon_portal": {
+                "title": "Polygon-Portal",
+                "desc": "Send and receive crypto assets"
+              },
+              "staking": {
+                "title": "Staking",
+                "desc": "Stake MATIC to earn rewards"
+              },
+              "polygon_scan": {
+                "title": "Polygon-Scan",
+                "desc": "Explore transactions on Polygon"
+              },
+              "faucet": {
+                "title": "Faucet",
+                "desc": "Get test tokens to experiment on testnet"
+              },
+              "token_mapper": {
+                "title": "Token-Mapper",
+                "desc": "Get test tokens to experiment on testnet"
+              }
             }
-        },
-        "developers": {
-            "title": "Developer Home",
-            "desc": "When you join Polygon, you join our vibrant community of developers. Tap into the collective to scale and develop your products while being supported by your peers.",
-            "items": {
-                "documentation": {
-                    "title": "Documentation",
-                    "desc": "Explore our protocol documents and wiki"
-                },
-                "solution_provider_network": {
-                    "title": "Solution Provider Network",
-                    "desc": "Explore our protocol documents and wiki"
-                },
-                "polygon_learn": {
-                    "title": "Plygon Learn",
-                    "desc": "Explore our protocol documents and wiki"
-                }
+          },
+          "polygon_zkevm": {
+            "title": "Polygon zkEVM",
+            "desc": "An EVM equivalent, open-source zk-Rollup",
+            "sub_title": "ZKEVM APPLICATIONS SOLUTIONS",
+            "solutions": {
+              "zkevm_apps": {
+                "title": "zkEVM Ecosystem dApps",
+                "desc": "Explore zkEVM in the Polygon zkEVM Ecosystem dApps"
+              },
+              "zkevm_bridge": {
+                "title": "zkEVM Ecosystem Bridge",
+                "desc": "Send and receive crypto assets"
+              }
             }
+          },
+          "polygon_miden": {
+            "title": "Polygon-Miden"
+          }
         },
-        "community": {
-            "title": "Community"
+        "app_specific_chain": {
+          "title": "APP SPECIFIC CHAIN",
+          "polygon_cdk": {
+            "title": "Polygon CDK",
+            "desc": "Polygon Chain Development Kit (CDK) enables you to build your own ZK-powered Layer 2 custom-fitted to your needs."
+          }
         },
-        "resources": {
-            "title": "Resources"
-        },
-        "company": {
-            "title": "Company"
-        },
-        "use_polygon": {
-            "title": "Use Plygon"
+        "decentralized_identity": {
+          "title": "DECENTRALIZED IDENTITY",
+          "polygon_id": {
+            "title": "Polygon ID",
+            "desc": "Polygon Chain Development Kit (CDK) enables you to build your own ZK-powered Layer 2 custom-fitted to your needs."
+          }
         }
+      }
     },
-    "build_polygon": "Build On Polygon"
+    "developers": {
+      "title": "Developer Home",
+      "desc": "When you join Polygon, you join our vibrant community of developers. Tap into the collective to scale and develop your products while being supported by your peers.",
+      "items": {
+        "documentation": {
+          "title": "Documentation",
+          "desc": "Explore our protocol documents and wiki"
+        },
+        "solution_provider_network": {
+          "title": "Solution Provider Network",
+          "desc": "Explore our protocol documents and wiki"
+        },
+        "polygon_learn": {
+          "title": "Plygon Learn",
+          "desc": "Explore our protocol documents and wiki"
+        }
+      }
+    },
+    "community": {
+      "title": "Community"
+    },
+    "resources": {
+      "title": "Resources"
+    },
+    "company": {
+      "title": "Company"
+    },
+    "use_polygon": {
+      "title": "Use Plygon"
+    }
+  },
+  "build_polygon": "Build On Polygon"
 }

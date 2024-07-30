@@ -1,10 +1,10 @@
 {
-    "labels": {
-        "live": "라이브",
-        "coming_soon": "곧 출시 예정",
-        "join_now": "지금 가입하기!"
-    },
-    "learn_more": "자세히 알아보기",
-    "open_docs": "문서 열기",
-    "read_more": "더 읽기"
+  "labels": {
+    "live": "라이브",
+    "coming_soon": "곧 출시 예정",
+    "join_now": "지금 가입하기!"
+  },
+  "learn_more": "자세히 알아보기",
+  "open_docs": "문서 열기",
+  "read_more": "더 읽기"
 }

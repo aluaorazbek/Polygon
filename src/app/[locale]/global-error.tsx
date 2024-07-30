@@ -6,7 +6,6 @@ import routerMap from "#/constants/router";
 
 import { generalSans } from "#/styles/fonts";
 
-
 const GlobalError = ({ error }: { error: Error & { digest?: string } }) => (
   <html lang="en" className={`${generalSans.variable} dark`}>
     <body className="flex min-h-screen flex-col items-center justify-center bg-background px-4">

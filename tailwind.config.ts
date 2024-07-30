@@ -81,7 +81,14 @@ const tailwindConfig = {
       },
     },
     backgroundImage: {
-      'custom-gradient': 'linear-gradient(180deg, #0F0E11 0%, #010101 21.76%)',
+      "custom-gradient-cover":
+        "linear-gradient(180deg, #0F0E11 0%, #010101 21.76%)",
+      "custom-gradient-btn-gray": "linear-gradient(#18161c,#121014)",
+      "custom-gradient-btn-purple": "linear-gradient(#8a46ff,#6e38cc)",
+      "custom-gradient-btn-green":
+        "linear-gradient(91.88deg, #0070C0 -22.71%, #00993D 111.33%)",
+      "custom-gradient-btn-green-hover":
+        "linear-gradient(91.88deg, #28a745 -22.71%, #3388cc 111.33%)",
     },
   },
   plugins: [

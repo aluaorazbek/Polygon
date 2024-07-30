@@ -1,10 +1,10 @@
 {
-    "labels": {
-        "live": "LIVE",
-        "coming_soon": "COMING SOON",
-        "join_now": "JOIN NOW!"
-    },
-    "learn_more": "Learn More",
-    "open_docs": "Open Docs",
-    "read_more": "Read More"
+  "labels": {
+    "live": "LIVE",
+    "coming_soon": "COMING SOON",
+    "join_now": "JOIN NOW!"
+  },
+  "learn_more": "Learn More",
+  "open_docs": "Open Docs",
+  "read_more": "Read More"
 }
