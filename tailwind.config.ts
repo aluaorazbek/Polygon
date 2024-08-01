@@ -47,6 +47,12 @@ const tailwindConfig = {
           1100: "rgb(var(--colors-gray-1100) / <alpha-value>)",
           1200: "rgb(var(--colors-gray-1200) / <alpha-value>)",
         },
+        purple: {
+          100: "rgb(var(--colors-purple-100) / <alpha-value>)",
+          200: "rgb(var(--colors-purple-200) / <alpha-value>)",
+          300: "rgb(var(--colors-purple-300) / <alpha-value>)",
+          400: "rgb(var(--colors-purple-400) / <alpha-value>)",
+        },
       },
       fontSize: {
         "3xs": ["0.5625rem", "150%"], // 9px

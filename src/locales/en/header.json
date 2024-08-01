@@ -72,7 +72,8 @@
       }
     },
     "developers": {
-      "title": "Developer Home",
+      "title": "Developer",
+      "subtitle": "Developer Home",
       "desc": "When you join Polygon, you join our vibrant community of developers. Tap into the collective to scale and develop your products while being supported by your peers.",
       "items": {
         "documentation": {
