@@ -1,7 +1,7 @@
 import Emissions from "#/src/views/home/emissions";
 
 const HomePage = () => (
-  <main className="">
+  <main className="tracking-wide">
     <Emissions />
   </main>
 );

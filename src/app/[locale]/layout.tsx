@@ -22,6 +22,7 @@ import { generalSans } from "#/styles/fonts";
 import "#/styles/globals.css";
 
 import i18nConfig from "#/i18n.config";
+import Footer from "#/src/views/footer";
 
 export async function generateMetadata({
   params: { locale },
@@ -69,7 +70,7 @@ const LocaleLayout = ({
         <AppProvider locale={locale}>
           <Header />
           <div className="pt-header">{children}</div>
-          {/* <Footer /> */}
+          <Footer />
         </AppProvider>
       )}
     </body>
