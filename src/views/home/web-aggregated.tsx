@@ -1,9 +1,10 @@
 "use client";
 
+import Link from "next/link";
+
+import ArrowRightIcon from "#/public/icon/arrow-right.svg";
 import BgImgLeft from "#/public/ui/bg-1.svg";
 import BgImgRight from "#/public/ui/bg-2.svg";
-import ArrowRightIcon from "#/public/icon/arrow-right.svg";
-import Link from "next/link";
 
 const WebAggregated = () => (
   <section className="w-full relative flex h-[30rem] flex-col items-center pt-12">
@@ -13,8 +14,7 @@ const WebAggregated = () => (
       <BgImgRight />
     </div>
 
-  
-    <Link 
+    <Link
       href="https://google.com/"
       className="flex justify-center p-2 bg-gray-900 hover:bg-gray-1000 border border-gray-700 rounded-xl w-fit gap-2 relative z-10"
     >
@@ -27,7 +27,9 @@ const WebAggregated = () => (
     </Link>
 
     <div className="flex flex-col items-center justify-center text-center relative z-10 mt-8">
-      <h2 className="text-white font-semibold text-6xl mb-4">Web3, Aggregated.</h2>
+      <h2 className="text-white font-semibold text-6xl mb-4">
+        Web3, Aggregated.
+      </h2>
       <p className="text-gray-100 text-xl">
         Enabling an infinitely scalable web of sovereign blockchains that <br />
         feels like a single chain. Powered by ZK tech.
