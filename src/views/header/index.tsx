@@ -26,7 +26,7 @@ const Header = () => {
   };
 
   return (
-    <header className="">
+    <header className="relative z-50">
       <StickyBar />
       <div className="flex items-center justify-between mx-auto max-w-[85rem] px-10">
         <PolygonLogo width={143} height={25} className="mr-6" />
