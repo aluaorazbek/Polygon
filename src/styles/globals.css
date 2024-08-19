@@ -22,6 +22,7 @@
     --colors-gray-800: 1 1 1;
     --colors-gray-900: 29 28 21;
     --colors-gray-1000: 37 36 39;
+    --colors-gray-1100: 103 102 110;
     /* PURPLE */
     --colors-purple-100: 112 71 235;
     --colors-purple-200: 98 18 236;
@@ -30,6 +31,7 @@
     --colors-purple-500: 111 70 183;
     --colors-purple-600: 123 63 228;
     --colors-purple-700: 175 137 238;
+    --colors-purple-800: 47 26 82;
   }
 
   body {

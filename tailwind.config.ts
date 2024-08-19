@@ -55,6 +55,7 @@ const tailwindConfig = {
           500: "rgb(var(--colors-purple-500) / <alpha-value>)",
           600: "rgb(var(--colors-purple-600) / <alpha-value>)",
           700: "rgb(var(--colors-purple-700) / <alpha-value>)",
+          800: "rgb(var(--colors-purple-800) / <alpha-value>)",
         },
       },
       fontSize: {
@@ -68,6 +69,16 @@ const tailwindConfig = {
         modal: "100",
         select: "90",
       },
+      boxShadow: {
+        card: [
+          "0 3px 4px #0000001f",
+          "0 7px 9px #0000002e",
+          "0 12px 16px #0000003f",
+          "0 22px 28px #00000040",
+          "0 42px 53px #0000004d",
+          "0 100px 127px #0000006e",
+        ].join(", "),
+      },
     },
     backgroundImage: {
       "gradient-cover": "linear-gradient(180deg, #0F0E11 0%, #010101 21.76%)",
@@ -77,6 +88,7 @@ const tailwindConfig = {
         "linear-gradient(91.88deg, #0070C0 -22.71%, #00993D 111.33%)",
       "gradient-btn-green-hover":
         "linear-gradient(91.88deg, #28a745 -22.71%, #3388cc 111.33%)",
+      "gradient-card": "linear-gradient(#141217,#0e0c12)",
     },
   },
   plugins: [
