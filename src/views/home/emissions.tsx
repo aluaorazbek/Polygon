@@ -9,8 +9,8 @@ import ArrowLink from "#/components/arrow-link";
 const Emissions = () => (
   <section className="bg-gradient-cover border-t border-gray-500">
     <div className="flex flex-col items-center justify-center px-10 py-24">
-      <div className="text-center text-white max-w-lg mb-10">
-        <h2 className="font-medium text-4xl mb-8 leading-tight tablet:text-xl">
+      <div className="text-center text-white max-w-[40rem] mb-10">
+        <h2 className="font-medium text-6xl mb-8 leading-tight tablet:text-xl">
           Hello world, <br />
           goodbye emissions
         </h2>

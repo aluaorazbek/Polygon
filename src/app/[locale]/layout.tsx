@@ -11,6 +11,7 @@ import { BRAND_NAME } from "#/constants/name";
 
 import AppProvider from "#/providers/index";
 
+import Footer from "#/views/footer";
 import Header from "#/views/header";
 import Maintenance from "#/views/maintenance";
 
@@ -22,7 +23,6 @@ import { generalSans } from "#/styles/fonts";
 import "#/styles/globals.css";
 
 import i18nConfig from "#/i18n.config";
-import Footer from "#/src/views/footer";
 
 export async function generateMetadata({
   params: { locale },

@@ -69,3 +69,76 @@ export const footerLinks = {
     privacy_policy: "Privacy Policy",
   },
 };
+
+export interface IAggregatedList {
+  title: string;
+  text: string;
+}
+
+export const aggregatedList = [
+  {
+    title: "Build",
+    text: "Get access to our documents, and start building",
+  },
+  {
+    title: "Stake",
+    text: "Get access to our documents, and start building",
+  },
+  {
+    title: "Use Polygon",
+    text: "Get access to our documents, and start building",
+  },
+];
+
+export const scalingCategories = [
+  {
+    type: "Public Chains",
+    posts: [
+      {
+        id: 1,
+        title: "Polygon PoS",
+        text: "Support the most widely used Ethereum scaling ecosystem that offers EVM compatibility and an ultimate user experience with fast transactions at near-zero gas fees today.",
+        video: "/video/scaling-1.mp4",
+        status: "LIVE",
+      },
+      {
+        id: 2,
+        title: "Polygon zkEVM",
+        text: "Unlock Ethereum scalability while maintaining security with the first ZK-rollup that offers EVM equivalence with fast transactions at near-zero gas cost today.",
+        video: "/video/scaling-2.mp4",
+        status: "LIVE",
+      },
+      {
+        id: 3,
+        title: "Polygon Miden",
+        text: "A decentralized rollup that leverages private data storage and local transaction execution. Because privacy scales better.",
+        video: "/video/scaling-3.mp4",
+        status: "COMING SOON",
+      },
+    ],
+  },
+  {
+    type: "App Specific Chains",
+    posts: [
+      {
+        id: 1,
+        title: "Polygon CDK",
+        text: "Build Ethereum Layer 2s with industry-leading ZK tech & ecosystem.",
+        video: "/video/scaling-2.mp4",
+        status: "LIVE",
+      },
+    ],
+  },
+  {
+    type: "Decentralized Identity",
+    posts: [
+      {
+        id: 1,
+        title: "Polygon ID",
+        text: "Build trusted and secure relationships between users and dApps, following the principles of self sovereign identity and privacy by default.",
+        video: "/video/scaling-3.mp4",
+        status: "LIVE",
+      },
+    ],
+  },
+];

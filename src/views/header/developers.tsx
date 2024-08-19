@@ -1,7 +1,7 @@
 import SolutionsImgIcon from "#/public/ui/header-solutions-1.svg";
 
-import HeaderImgPlaceholder from "#/src/components/header-img-placeholder";
-import HeaderLink from "#/src/components/header-link";
+import HeaderImgPlaceholder from "#/views/header/img-placeholder";
+import HeaderLink from "#/views/header/link";
 
 export const DevelopersHeader = () => (
   <section className="w-[40.5rem] flex bg-gray-400 p-2 gap-8">

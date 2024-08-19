@@ -10,11 +10,11 @@ import DiscordLogo from "#/public/logo/discord.svg";
 import PolygonLogo from "#/public/logo/polygon.svg";
 import XLogo from "#/public/logo/x.svg";
 
-import { headerTitleList } from "#/src/constants/mock-data";
+import { headerTitleList } from "#/constants/mock-data";
 
-import { DevelopersHeader } from "./developers";
-import { SolutionsHeader } from "./solutions";
-import { StickyBar } from "./sticky-bar";
+import { DevelopersHeader } from "#/views/header/developers";
+import { SolutionsHeader } from "#/views/header/solutions";
+import { StickyBar } from "#/views/header/sticky-bar";
 
 const Header = () => {
   const [hovering, setHovering] = useState<number | null>(null);

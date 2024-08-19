@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 import ChevronIcon from "#/public/icon/chevron-left.svg";
 
-const FooterLink = ({ href, children }: PropsWithChildren<LinkProps>) => {
+const ProjectLink = ({ href, children }: PropsWithChildren<LinkProps>) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -30,4 +30,4 @@ const FooterLink = ({ href, children }: PropsWithChildren<LinkProps>) => {
   );
 };
 
-export default FooterLink;
+export default ProjectLink;
