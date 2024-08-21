@@ -1,17 +1,18 @@
-import Emissions from "#/views/home/emissions";
-import ScalingTechnology from "#/views/home/scaling-technology";
-import WebAggregated from "#/views/home/web-aggregated";
-
 import Ecosystem from "#/views/home/ecosystem";
-import Carousel from "#/views/home/carousel";
+import Emissions from "#/views/home/emissions";
+import NewsSection from "#/views/home/news-section";
+import ScalingTechnology from "#/views/home/scaling-technology";
+import VideoCarousel from "#/views/home/video-carousel";
+import WebAggregated from "#/views/home/web-aggregated";
 
 const HomePage = () => (
   <main className="tracking-wide">
     <WebAggregated />
-    <Carousel />
+    <VideoCarousel />
     <ScalingTechnology />
     <Emissions />
     <Ecosystem />
+    <NewsSection />
   </main>
 );
 export default HomePage;

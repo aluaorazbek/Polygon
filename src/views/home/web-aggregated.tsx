@@ -32,7 +32,7 @@ const WebAggregated = () => {
           Introducing: Aggregated Blockchains
         </p>
         <div className="p-1 bg-purple-300 rounded-full border-2 border-purple-500 text-white">
-          <ArrowRightIcon />
+          <ArrowRightIcon width={11} height={12} className="text-white" />
         </div>
       </Link>
 
