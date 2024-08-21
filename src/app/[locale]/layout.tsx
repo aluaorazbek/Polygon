@@ -29,16 +29,30 @@ export async function generateMetadata({
 }: {
   params: { locale: string };
 }): Promise<Metadata> {
-  const { t } = await initTranslations(locale);
-  const description = t("Meta.home.description", { brand: BRAND_NAME });
+  const description = "Enabling an infinitely scalable web of sovereign blockchains that feels like a single chain. Powered by ZK tech."
 
   return {
-    title: {
-      default: BRAND_NAME,
-      template: `${BRAND_NAME} | %s`,
-    },
+    title: BRAND_NAME,
     description,
-    keywords: t("Meta.keywords"),
+    keywords: ["polygon"],
+    openGraph: {
+			title: BRAND_NAME,
+			description,
+			url: `/`,
+			images: [
+				{
+					url: `/og/large.png`,
+					width: 600,
+					height: 315,
+				},
+				{
+					url: `/og/large.png`,
+					width: 1200,
+					height: 600,
+				},
+			],
+			type: 'website',
+		},
   };
 }
 
