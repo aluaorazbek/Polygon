@@ -78,6 +78,7 @@ const tailwindConfig = {
           "0 42px 53px #0000004d",
           "0 100px 127px #0000006e",
         ].join(", "),
+        hover: "2px 59px 96px 0px rgba(0, 0, 0, 0.99)",
       },
     },
     backgroundImage: {
@@ -89,6 +90,7 @@ const tailwindConfig = {
       "gradient-btn-green-hover":
         "linear-gradient(91.88deg, #28a745 -22.71%, #3388cc 111.33%)",
       "gradient-card": "linear-gradient(#141217,#0e0c12)",
+      "gradient-card-hover": "linear-gradient(#1B181F, #0E0C12)",
     },
   },
   plugins: [

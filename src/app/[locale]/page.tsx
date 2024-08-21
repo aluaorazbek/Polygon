@@ -1,5 +1,6 @@
 import Ecosystem from "#/views/home/ecosystem";
 import Emissions from "#/views/home/emissions";
+import Features from "#/views/home/features";
 import NewsSection from "#/views/home/news-section";
 import ScalingTechnology from "#/views/home/scaling-technology";
 import VideoCarousel from "#/views/home/video-carousel";
@@ -12,6 +13,7 @@ const HomePage = () => (
     <ScalingTechnology />
     <Emissions />
     <Ecosystem />
+    <Features />
     <NewsSection />
   </main>
 );

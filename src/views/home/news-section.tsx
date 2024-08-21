@@ -11,12 +11,12 @@ import { motion, useAnimation } from "framer-motion";
 
 import ArrowIcon from "#/public/icon/arrow-right-up.svg";
 import ArrowRightIcon from "#/public/icon/arrow-right.svg";
-import NewImg1 from "#/public/ui/news-1.png";
-import NewImg2 from "#/public/ui/news-2.png";
-import NewImg3 from "#/public/ui/news-3.png";
-import NewImg4 from "#/public/ui/news-4.png";
-import NewImg5 from "#/public/ui/news-5.png";
-import NewImg6 from "#/public/ui/news-6.png";
+import NewsImg1 from "#/public/ui/news-1.png";
+import NewsImg2 from "#/public/ui/news-2.png";
+import NewsImg3 from "#/public/ui/news-3.png";
+import NewsImg4 from "#/public/ui/news-4.png";
+import NewsImg5 from "#/public/ui/news-5.png";
+import NewsImg6 from "#/public/ui/news-6.png";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -162,7 +162,7 @@ const NewsSection: React.FC = () => {
       category: "AGGREGATION",
       description:
         "Polygon's latest innovation revolutionizes the blockchain ecosystem with unprecedented scalability.",
-      image: NewImg1,
+      image: NewsImg1,
     },
     {
       href: "https://polygon.technology/",
@@ -170,7 +170,7 @@ const NewsSection: React.FC = () => {
       category: "POLYGON NEWS",
       description:
         "Breaking news: Polygon announces partnership with major tech firm to enhance blockchain solutions.",
-      image: NewImg2,
+      image: NewsImg2,
     },
     {
       href: "https://polygon.technology/",
@@ -178,7 +178,7 @@ const NewsSection: React.FC = () => {
       category: "POLYGON SOLUTIONS",
       description:
         "Exploring Polygon's multi-chain strategy and how it's shaping the future of decentralized finance.",
-      image: NewImg3,
+      image: NewsImg3,
     },
     {
       href: "https://polygon.technology/",
@@ -186,7 +186,7 @@ const NewsSection: React.FC = () => {
       category: "CASE STUDIES",
       description:
         "Case Study: How a global enterprise leveraged Polygon to streamline its supply chain operations.",
-      image: NewImg4,
+      image: NewsImg4,
     },
     {
       href: "https://polygon.technology/",
@@ -194,7 +194,7 @@ const NewsSection: React.FC = () => {
       category: "AGGREGATION",
       description:
         "Understanding the benefits of Polygon's Layer 2 scaling solution for Ethereum-based applications.",
-      image: NewImg5,
+      image: NewsImg5,
     },
     {
       href: "https://polygon.technology/",
@@ -202,7 +202,7 @@ const NewsSection: React.FC = () => {
       category: "AGGREGATION",
       description:
         "Polygon introduces zk-Rollups: A new frontier in secure and scalable blockchain transactions.",
-      image: NewImg6,
+      image: NewsImg6,
     },
   ];
 

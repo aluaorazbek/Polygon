@@ -62,14 +62,14 @@ const WebAggregated = () => {
                 className={clsx(
                   "p-1 rounded-full w-fit",
                   hoveredIndex === index
-                    ? "bg-white "
+                    ? "bg-white text-black"
                     : "bg-gray-700 text-white",
                 )}
                 initial={{ x: 0 }}
                 animate={{ x: hoveredIndex === index ? 5 : 0 }}
                 transition={{ duration: 0.2 }}
               >
-                <ArrowRightIcon />
+                <ArrowRightIcon width={11} height={12} />
               </motion.div>
             </div>
           </div>
