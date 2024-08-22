@@ -63,7 +63,7 @@ const NewsLink: React.FC<NewsLinkProps> = ({
   };
 
   return (
-    <div className="w-[22rem] bg-gradient-card border border-gray-1000 rounded-lg hover:bg-gray-600">
+    <div className="w-[22rem] mobile:w-[20rem] bg-gradient-card border border-gray-1000 rounded-lg hover:bg-gray-600">
       <Link
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
@@ -118,7 +118,7 @@ function NextArrow(props: NextArrowProps) {
       type="button"
       aria-label="Next slide"
       onClick={onClick}
-      className="absolute -top-[7rem] right-[5rem] z-50 rounded-full w-[3.2rem] h-[3.2rem] flex py-4 pl-[1.1rem] bg-white bg-opacity-5 border border-gray-1000 hover:bg-opacity-10 cursor-pointer"
+      className="mobile:hidden absolute -top-[7rem] right-[5rem] z-50 rounded-full w-[3.2rem] h-[3.2rem] flex py-4 pl-[1.1rem] bg-white bg-opacity-5 border border-gray-1000 hover:bg-opacity-10 cursor-pointer"
     >
       <ArrowRightIcon width={15} height={15} className="text-white" />
     </button>
@@ -132,7 +132,7 @@ function PrevArrow(props: NextArrowProps) {
       type="button"
       aria-label="Previous slide"
       onClick={onClick}
-      className="absolute -top-[7rem] right-[9rem] z-50 rounded-full w-[3.2rem] h-[3.2rem] flex py-4 pl-[1.1rem] bg-white bg-opacity-5 border border-gray-1000 hover:bg-opacity-10 cursor-pointer"
+      className="mobile:hidden absolute -top-[7rem] right-[9rem] z-50 rounded-full w-[3.2rem] h-[3.2rem] flex py-4 pl-[1.1rem] bg-white bg-opacity-5 border border-gray-1000 hover:bg-opacity-10 cursor-pointer"
     >
       <ArrowRightIcon
         width={15}
@@ -147,12 +147,71 @@ function PrevArrow(props: NextArrowProps) {
 const NewsSection: React.FC = () => {
   const carouselSettings = {
     dots: false,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
+    initialSlide: 0,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1170,
+        settings: {
+          slidesToShow: 2.5,
+          slidesToScroll: 2.5,
+        },
+      },
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 2.3,
+          slidesToScroll: 2.3,
+        },
+      },
+      {
+        breakpoint: 920,
+        settings: {
+          slidesToShow: 2.1,
+          slidesToScroll: 2.1,
+        },
+      },
+      {
+        breakpoint: 850,
+        settings: {
+          slidesToShow: 1.8,
+          slidesToScroll: 1.8,
+        },
+      },
+      {
+        breakpoint: 850,
+        settings: {
+          slidesToShow: 1.8,
+          slidesToScroll: 1.8,
+        },
+      },
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 1.5,
+          slidesToScroll: 1.5,
+        },
+      },
+      {
+        breakpoint: 590,
+        settings: {
+          slidesToShow: 1.3,
+          slidesToScroll: 1.3,
+        },
+      },
+      {
+        breakpoint: 520,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   const linksData = [
@@ -207,8 +266,8 @@ const NewsSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-24">
-      <h3 className="max-w-[72rem] m-auto text-white font-medium text-6xl mb-16 leading-tight tablet:text-xl">
+    <section className="py-24 px-10 mobile:px-5">
+      <h3 className="max-w-[72rem] m-auto text-white font-medium text-6xl mb-16 leading-tight mobile:text-[2rem]">
         In the news
       </h3>
       <div className="relative max-w-[72rem] m-auto">

@@ -119,7 +119,7 @@ const HamburgerMenu = () => {
       <div
         className={`absolute top-0 z-50 w-full h-full overflow-hidden transition-all duration-300 ease-in-out ${isOpen || selectedTitle ? " opacity-100 pointer-events-auto" : " opacity-0 pointer-events-none"}`}
       >
-        <div className="flex justify-between items-center bg-black h-[70px] px-10">
+        <div className="flex justify-between items-center bg-black h-[70px] px-10 mobile:px-5">
           <PolygonLogo width={143} height={25} className="mr-6" />
           <button type="button" onClick={toggleMenu} className="cursor-pointer">
             {isOpen || selectedTitle ? (
@@ -135,7 +135,7 @@ const HamburgerMenu = () => {
             onBack={() => setSelectedTitle(null)}
           />
         ) : (
-          <div className="w-full h-screen z-50 bg-black px-10 pt-2">
+          <div className="w-full h-screen z-50 bg-black px-10 pt-2 mobile:px-5">
             {headerTitleList.map((header) => (
               <button
                 type="button"

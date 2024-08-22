@@ -2,7 +2,12 @@
 
 import Image from "next/image";
 
-import { Tab, TabGroup, TabList, TabPanel, TabPanels ,
+import {
+  Tab,
+  TabGroup,
+  TabList,
+  TabPanel,
+  TabPanels,
   Disclosure,
   DisclosureButton,
   DisclosurePanel,
@@ -15,10 +20,9 @@ import { scalingCategories } from "#/constants/mock-data";
 
 import ArrowLink from "#/components/arrow-link";
 
-
 const ScalingTechnology = () => (
   <div className="py-24 tablet:px-5 tablet:pt-[10rem] mobile:py-[7rem]">
-    <h2 className="font-medium text-6xl mb-8 leading-tight tablet:text-[2rem] tablet:text-left text-center text-white">
+    <h2 className="font-medium text-6xl mb-8 leading-tight mobile:text-[2rem] tablet:text-left text-center text-white">
       The most adopted scaling technology
     </h2>
 

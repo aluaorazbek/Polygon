@@ -95,6 +95,18 @@ const tailwindConfig = {
     },
   },
   plugins: [
+    /** @ts-ignore */
+    function addScrollbarUtilities({ addUtilities }) {
+      addUtilities({
+        ".scrollbar-hide": {
+          "-ms-overflow-style": "none" /* IE and Edge */,
+          "scrollbar-width": "none" /* Firefox */,
+          "&::-webkit-scrollbar": {
+            display: "none" /* WebKit */,
+          },
+        },
+      });
+    },
     require("@tailwindcss/typography"),
     require("tailwind-scrollbar")({ nocompatible: true }),
     require("tailwind-scrollbar-hide"),

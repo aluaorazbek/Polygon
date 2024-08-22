@@ -13,9 +13,9 @@ import TelegramLogo from "#/public/logo/telegram.svg";
 import TwitterLogo from "#/public/logo/twitter.svg";
 
 const SnsLinks = () => (
-  <div className="px-10 mx-auto max-w-[85rem] flex items-center justify-between mb-24">
+  <div className="px-10 mx-auto max-w-[85rem] flex items-center justify-between mb-24 mobile:flex-col mobile:gap-6 mobile:mb-4">
     <PolygonLogo width={123} height={24} className="mr-6" />
-    <div className="flex gap-8">
+    <div className="flex gap-8 mobile:gap-4">
       <Link className="w-[2.1875rem] h-[2.1875rem]" href="https://twitter.com/">
         <TwitterLogo className="text-gray-100 hover:text-white" />
       </Link>

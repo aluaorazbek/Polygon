@@ -142,12 +142,12 @@ const Features = () => {
   };
 
   return (
-    <section className="border-t border-gray-500">
+    <section className="border-t border-gray-500 px-10 mobile:px-5">
       <div className="py-24 max-w-[72rem] m-auto">
-        <h2 className="text-white font-medium text-6xl mb-16 leading-tight tablet:text-xl">
+        <h2 className="text-white font-medium text-6xl mb-16 leading-tight mobile:text-[2rem]">
           Time to roll up your sleeves
         </h2>
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-2 gap-6 mobile:flex mobile:overflow-auto scrollbar-hide">
           {stats.map((stat, index) => (
             <div key={index}>
               <StatCard
