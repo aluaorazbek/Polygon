@@ -32,7 +32,7 @@ const tailwindConfig = {
         },
         yellow: "rgb(var(--colors-yellow) / <alpha-value>)",
         blue: "rgb(var(--colors-blue) / <alpha-value>)",
-        black: "rgb(var(--colors-black) / <alpha-value>)",
+        // black: "rgb(var(--colors-black) / <alp`ha-value>)",
         gray: {
           100: "rgb(var(--colors-gray-100) / <alpha-value>)",
           200: "rgb(var(--colors-gray-200) / <alpha-value>)",

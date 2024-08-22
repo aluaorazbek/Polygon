@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" width="100" height="100" preserveAspectRatio="xMidYMid meet" style="transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+  <defs>
+    <clipPath id="__lottie_element_2">
+      <rect width="500" height="500" x="0" y="0"></rect>
+    </clipPath>
+    <clipPath id="__lottie_element_4">
+      <path d="M0,0 L600,0 L600,600 L0,600z"></path>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#__lottie_element_2)">
+    <g clip-path="url(#__lottie_element_4)" style="display: block;" transform="matrix(0.8399999737739563,0,0,0.8399999737739563,0.0000152587890625,-0.3199920654296875)" opacity="1">
+      <g style="display: block;" transform="matrix(1,0,0,1,260,445)" opacity="1">
+        <g opacity="1" transform="matrix(1,0,0,1,40,-89)">
+          <path fill="rgb(255,255,255)" fill-opacity="1" d="M226,-1 C226,-1 226,1 226,1 C226,12.038000106811523 217.03799438476562,21 206,21 C206,21 -206,21 -206,21 C-217.03799438476562,21 -226,12.038000106811523 -226,1 C-226,1 -226,-1 -226,-1 C-226,-12.038000106811523 -217.03799438476562,-21 -206,-21 C-206,-21 206,-21 206,-21 C217.03799438476562,-21 226,-12.038000106811523 226,-1z"></path>
+        </g>
+      </g>
+      <g style="display: block;" transform="matrix(1,0,0,1,260,329)" opacity="1">
+        <g opacity="1" transform="matrix(1,0,0,1,40,-89)">
+          <path fill="rgb(255,255,255)" fill-opacity="1" d="M226,-1 C226,-1 226,1 226,1 C226,12.038000106811523 217.03799438476562,21 206,21 C206,21 -206,21 -206,21 C-217.03799438476562,21 -226,12.038000106811523 -226,1 C-226,1 -226,-1 -226,-1 C-226,-12.038000106811523 -217.03799438476562,-21 -206,-21 C-206,-21 206,-21 206,-21 C217.03799438476562,-21 226,-12.038000106811523 226,-1z"></path>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
