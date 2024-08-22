@@ -106,7 +106,7 @@ const HamburgerMenu = () => {
 
   return (
     <header className="hidden tablet:block w-full">
-      <div className="flex justify-between items-center bg-black h-[70px] px-10">
+      <div className="flex justify-between items-center bg-black h-[70px] px-10 mobile:px-5">
         <PolygonLogo width={143} height={25} className="mr-6" />
         <button type="button" onClick={toggleMenu} className="cursor-pointer">
           {isOpen || selectedTitle ? (

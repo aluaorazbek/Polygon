@@ -9,6 +9,7 @@ const tailwindConfig = {
       desktop: { max: "1440px" },
       tablet: { max: "1280px" },
       mobile: { max: "720px" },
+      small: { max: "390px" },
     },
     extend: {
       fontFamily: {

@@ -49,7 +49,7 @@ const VideoCarousel = () => {
   };
 
   return (
-    <section className="relative mt-6">
+    <section className="relative mt-6 px-5 mobile:mt-[5rem]">
       <div className="w-full h-full overflow-hidden max-w-[72rem] m-auto">
         <div
           className="flex transition-transform duration-1500 ease-in-out max-w-[72rem] m-auto"
@@ -74,11 +74,15 @@ const VideoCarousel = () => {
                     }}
                   />
                 </div>
-                <div className="flex w-full justify-between gap-20 items-center">
-                  <h3 className="font-medium text-white text-[1.8rem]">
+                <div className="flex w-full justify-between gap-10 items-center mobile:flex-col mobile:gap-4 mobile:mb-4">
+                  <h3 className="font-medium text-white text-[1.8rem] w-fit">
                     Lido Finance. Earn staking rewards
                   </h3>
-                  <ArrowLink href="" color="purple">
+                  <ArrowLink
+                    href=""
+                    color="purple"
+                    className="mobile:w-full mobile:justify-center"
+                  >
                     Learn More
                   </ArrowLink>
                 </div>
@@ -100,7 +104,7 @@ const VideoCarousel = () => {
           ))}
         </div>
       </div>
-      <div className="max-w-[80rem] m-auto flex w-full justify-between absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div className="max-w-[80rem] m-auto flex w-full justify-between absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 tablet:w-[7rem] tablet:relative tablet:top-20 mobile:hidden">
         <button
           type="button"
           aria-label="Previous slide"
@@ -118,7 +122,7 @@ const VideoCarousel = () => {
           <ChevronIcon width={24} height={24} className="rotate-180" />
         </button>
       </div>
-      <div className="hidden absolute flex gap-2 bg-white bg-opacity-10 py-2 px-6 rounded-full left-1/2 transform -translate-x-1/2 bottom-4">
+      <div className="hidden absolute mobile:flex gap-2 bg-white bg-opacity-10 py-2 px-6 rounded-full left-1/2 transform -translate-x-1/2 bottom-4">
         {videos.map((_, index) => (
           <button
             type="button"

@@ -8,9 +8,9 @@ import ArrowLink from "#/components/arrow-link";
 
 const Emissions = () => (
   <section className="bg-gradient-cover border-t border-gray-500">
-    <div className="flex flex-col items-center justify-center px-10 py-24">
-      <div className="text-center text-white max-w-[40rem] mb-10">
-        <h2 className="font-medium text-6xl mb-8 leading-tight tablet:text-xl">
+    <div className="flex flex-col items-center justify-center px-10 py-24 mobile:py-10 mobile:px-5 mobile:items-start">
+      <div className="text-center text-white max-w-[40rem] mb-10 mobile:text-left">
+        <h2 className="font-medium text-6xl mb-8 leading-tight tablet:text-[2.62rem]">
           Hello world, <br />
           goodbye emissions
         </h2>
@@ -22,13 +22,14 @@ const Emissions = () => (
         </p>
       </div>
       <ArrowLink color="gradient" href="#">
-        Learn More
+        Read More
       </ArrowLink>
       <Image
         src={EmissionsImg}
-        width={1100}
+        width={1000}
+        height={1000}
         alt="Emissions Image"
-        className=""
+        className="tablet:mt-10"
       />
     </div>
   </section>

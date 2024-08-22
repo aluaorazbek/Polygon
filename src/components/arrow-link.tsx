@@ -12,9 +12,15 @@ import ArrowIcon from "#/public/icon/arrow-right-up.svg";
 
 type TProps = {
   color?: "default" | "purple" | "gradient";
+  className?: string;
 } & PropsWithChildren<LinkProps>;
 
-const ArrowLink = ({ color = "default", href, children }: TProps) => {
+const ArrowLink = ({
+  color = "default",
+  href,
+  children,
+  className,
+}: TProps) => {
   const controls1 = useAnimation();
   const controls2 = useAnimation();
   const [isHovered, setIsHovered] = useState(false);
@@ -69,6 +75,7 @@ const ArrowLink = ({ color = "default", href, children }: TProps) => {
       className={twMerge(
         "relative text-white p-2.5 pl-3.5 rounded-[3rem] flex items-center gap-1.5",
         backgroundMapping[color],
+        className,
       )}
     >
       {children && <span className="text-sm font-medium">{children}</span>}

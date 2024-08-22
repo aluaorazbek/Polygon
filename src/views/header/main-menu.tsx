@@ -36,7 +36,7 @@ const MainMenu = () => {
             className="flex flex-grow-0 flex-shrink-0 basis-auto justify-center gap-2"
           >
             {headerTitleList.map((item, index) => (
-              <div className="py-6 ">
+              <div className="py-6 " key={index}>
                 <Link
                   key={index}
                   href="https://polygon.technology/"

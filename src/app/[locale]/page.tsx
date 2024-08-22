@@ -7,7 +7,7 @@ import VideoCarousel from "#/views/home/video-carousel";
 import WebAggregated from "#/views/home/web-aggregated";
 
 const HomePage = () => (
-  <main className="tracking-wide">
+  <main className="">
     <WebAggregated />
     <VideoCarousel />
     <ScalingTechnology />
