@@ -75,7 +75,7 @@ const Ecosystem = () => {
           The largest and <br className="mobile:hidden" /> most thriving
           ecosystem
         </h2>
-        <div className="flex gap-6 mobile:justify-between">
+        <div className="flex gap-6 tablet:justify-center mobile:justify-between">
           {stats.map((column, colIndex) => (
             <div
               key={colIndex}
